@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    padding: 10px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.lab-icon {
+    width: 25px;
+    height: 25px;
+}
+.symbol {
+    width: 25px;
+    height: 25px;
+    margin-top: -4px;
+    border-radius: 50px;
+}
+.apps-outline {
+    color: black;
+    font-size: 20px;
+}
+.gmail,
+.images {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.gmail:hover,
+.images:hover {
+    text-decoration: underline;
+}
+.lab-icon:hover {
+    background-color: lightgray;
+    border-radius: 80px;
+}
+.apps-outline:hover {
+    background-color: lightgray;
+    border-radius: 80px;
+}
+.symbol:hover {
+    background-color: lightgray;
+    border-radius: 80px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.google {
+    width: 300px;
+    margin-bottom: 60px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 80px;
+}
+.search-bar {
+    width: 600px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 0 20px;
+    outline: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+.mic {
+    width: 35px;
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 100px;
+    right: 35px;
+}
+.lens {
+    width: 25px;
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 100px;
+    right: 15px;
+}
+.search-icon {
+    position: absolute;
+    left: 5px;
+    z-index: 1;
+    margin-bottom:95px;
+    color: grey;
+    font-size: 16px;
+}
+.button1  {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    margin: 10px;
+    color: #4e4d4d;
+    background: #ebe8e8;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.button2 {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    margin: 10px;
+    color: #4e4d4d;
+    background: #ebe8e8;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+.button1:hover {
+    background: #ede8e8;
+    color: black;
+    box-shadow: 0 0 2px black;
+}  
+.button2:hover {
+    background: #ede8e8;
+    color: black;
+    box-shadow: 0 0 2px black;
+}  
+@media screen and (max-width: 600px) {
+    nav {
+        padding: 3px;
+    }
+    .gmail ,
+    .images {
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .lab-icon {
+        width: 20px;
+        height: 20px;
+    }
+    .symbol {
+        width: 20px;
+        height: 20px;
+        margin-top: 1px;
+    }
+    .apps-outline {
+        width: 18px;
+        margin-top: -2px;
+    }
+    .google {
+        width: 150px;
+        margin-bottom: 10px;
+    }
+    .search-bar {
+        width: 300px;
+        height: 35px;
+    }
+    .mic {
+        right: 20px;
+        width: 20px;
+    }
+    .lens {
+        right: 5px;
+        width: 16px;
+    }
+    .button1  {
+        top: 60px;
+        left: 20px;
+        width: 120px;
+    }
+    .button2  {
+        top: 60px;
+        left: 150px;
+        width: 125px;
+    }
+    .button1:hover {
+        background: #ede8e8;
+        color: black;
+        box-shadow: 0 0 2px black;
+    }  
+    .button2:hover {
+        background: #ede8e8;
+        color: black;
+        box-shadow: 0 0 2px black;
+    }  
+}
